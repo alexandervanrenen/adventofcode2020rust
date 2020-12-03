@@ -17,3 +17,10 @@ Day 02
 *Parsing exercise*
 
 Implemented parsing manually to get better in Rust .. still reading the tutorial :)
+
+Day 03
+------
+*Using vector exercise*
+
+Implemented my first structs and methods in rust.
+Known roughly how to parse and work with iterators makes this a lot smoother :)
