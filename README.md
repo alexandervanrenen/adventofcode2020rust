@@ -32,6 +32,6 @@ Day 04
 Tried to embrace streams and might have taken it a bit to far in task 1.
 Also installed my first crate for task 2: ``regex``!
 Sadly, I ignored memory management a lot.
-I think I could have used more ```&String`` instead of always creating new strings (``to_string``).
+I think I could have used more ``&String`` instead of always creating new strings (``to_string``).
 Also, my handling of ``Option<_>`` needs improvement. 
 All in all, I should try focusing on understanding these concepts (``String`` vs ``str`` and lifetime) more in the next task.
