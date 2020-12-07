@@ -35,3 +35,28 @@ Sadly, I ignored memory management a lot.
 I think I could have used more ``&String`` instead of always creating new strings (``to_string``).
 Also, my handling of ``Option<_>`` needs improvement. 
 All in all, I should try focusing on understanding these concepts (``String`` vs ``str`` and lifetime) more in the next task.
+
+Day 05
+------
+*Binary -> numbers*
+
+Just convert a binary string to a number -> done.
+Nice and easy in rust.
+
+Day 06
+------
+*Counting*
+
+Fun and easy.
+
+Day 07
+------
+*Simple graph problem*
+
+Tried using Rust memory management to build a bi-directional graph.
+It's horrible, annoying and frustrating to no end: super verbose, complicated and unnecessary overhead.
+What's the point of making me write ``unwrap`` all the time???
+Just let it crash if there is no value and don't bother if there is fft!
+... let's hope this gets better with more familiarity with Rust.
+However, even with my limited understanding and 100-monkey-coding-style, I never had a failure at runtime.
+Not sure if this can be entirely tributed to Rust, because ``unwrap`` would have also caused a failure if I screw up.
