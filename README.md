@@ -60,3 +60,15 @@ Just let it crash if there is no value and don't bother if there is fft!
 ... let's hope this gets better with more familiarity with Rust.
 However, even with my limited understanding and 100-monkey-coding-style, I never had a failure at runtime.
 Not sure if this can be entirely tributed to Rust, because ``unwrap`` would have also caused a failure if I screw up.
+
+Day 08
+------
+*Starting the interpreter <3*
+
+Rust is dumb.
+I am really considering to switch to something else, this just sucks the fun out of coding.
+I started coding in a few languages and never got so disillusioned before.
+It's like riding a bicycle with training wheels.
+Useless and not a lot of fun once you know how to ride a bicycle.
+Rust's more explicit ways of doing things (e.g., dereferencing memory) is just more verbose, nothing else.
+I was hoping for so much more from a newly designed language...
