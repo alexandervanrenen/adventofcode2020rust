@@ -72,3 +72,12 @@ It's like riding a bicycle with training wheels.
 Useless and not a lot of fun once you know how to ride a bicycle.
 Rust's more explicit ways of doing things (e.g., dereferencing memory) is just more verbose, nothing else.
 I was hoping for so much more from a newly designed language...
+
+Day 09
+------
+*Window functions*
+
+Feels like I am getting more familiar with Rust.
+Still feels unnecessary, but knowing how to do things helps lower the frustration.
+However, this task was also way less memory management intensive.
+Will continue with rust, for now :)
