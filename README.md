@@ -81,3 +81,18 @@ Feels like I am getting more familiar with Rust.
 Still feels unnecessary, but knowing how to do things helps lower the frustration.
 However, this task was also way less memory management intensive.
 Will continue with rust, for now :)
+
+...
+---
+
+Day 14
+------
+
+I am over my Rust depression.
+My solution for today might be a bit over-engineered.
+I should pay more attention to the input, but day13 scared me.
+Also, I still need to improve rust skills.
+I think there are many common code snippets you have to learn for every programming language: i.e., iterate over a vector, mutate values in a map, manipulate a string (in 100 different ways).
+In Rust I am still missing many of these and therefore struggle a bit.
+In addition, there are probably some snippets I have already figured, but are not in a good Rust style.
+I also need to improve these.
