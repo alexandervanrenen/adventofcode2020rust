@@ -81,6 +81,29 @@ fn taskWithVector(numbers: &Vec<usize>) {
     println!("task2: {}", history[30000000 - 1].0);
 }
 
+fn taskWithHarry(numbers: &Vec<usize>) {
+    let mut idx: HashMap<usize, usize> = HashMap::new();
+    for turn in 0..(numbers.len() - 1) {
+        idx.insert(numbers[turn], turn);
+    }
+
+    let init_number_count = numbers.len();
+    let turn_count = 30000000; // part 2
+
+    let mut previous_spoken_number: usize = *numbers.get(init_number_count - 1).unwrap();
+    for turn in init_number_count..turn_count {
+        let tmp = previous_spoken_number;
+        if let Some(j) = idx.get_mut(&tmp) {
+            previous_spoken_number = turn - 1 - *j;
+        } else {
+            previous_spoken_number = 0;
+        }
+        idx.insert(tmp, turn - 1);
+    }
+
+    println!("task2: {}", previous_spoken_number);
+}
+
 fn main() {
     let mut x = vec![0, 3, 6];
     let mut x = vec![1, 3, 2];
@@ -90,6 +113,7 @@ fn main() {
     let mut x = vec![3, 2, 1];
     let mut x = vec![3, 1, 2];
     let mut x = vec![19, 20, 14, 0, 9, 1];
-    taskWithVector(&x);
+    taskWithHarry(&x);
+    // taskWithVector(&x);
     // taskWithHashMap(vec![19, 20, 14, 0, 9, 1]);
 }
