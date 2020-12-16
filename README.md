@@ -96,3 +96,18 @@ I think there are many common code snippets you have to learn for every programm
 In Rust I am still missing many of these and therefore struggle a bit.
 In addition, there are probably some snippets I have already figured, but are not in a good Rust style.
 I also need to improve these.
+
+Day 15
+------
+*Number sequence*
+
+Just had to unroll a number sequence till 30M.
+I think the best possible algorithm is simply playing the game.
+
+Day 16
+------
+*Simple optimization problem*
+
+A bit heavy on parsing.
+Maybe I should not write a parser, but instead create the input problem directly in code (i.e., manual parsing).
+I couldn't figure out a way to iterate over a hash map and change it at the same time in Rust ... o.O
