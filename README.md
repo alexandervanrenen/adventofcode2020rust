@@ -111,3 +111,11 @@ Day 16
 A bit heavy on parsing.
 Maybe I should not write a parser, but instead create the input problem directly in code (i.e., manual parsing).
 I couldn't figure out a way to iterate over a hash map and change it at the same time in Rust ... o.O
+
+Day 17
+------
+*Boring simulation*
+
+Task 1 was fun and I was excited about what task 2 might bring:
+It was disappointing.
+However, I tried writing cleaner Rust code again and am happy with the results.
